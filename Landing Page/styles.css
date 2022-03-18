@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .title {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header .navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+  font-family: 'Roboto', sans-serif;
+}
+
+header .navigation a:hover {
+  background: #b9982a;
+}
+
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
+}
+
+.content h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-top: 140px;
+  margin-bottom: 30px;
+  font-family: 'Sacramento', cursive;
+}
+
+.content p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content .info-btn {
+  color: white;
+  background: #226A80;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content .info-btn:hover {
+  background: #0C4F60;
+}
+
+.flex-container {
+  display: flex;
+}
+
+img {
+  padding-top: 220px;
+  padding-left: 38px;
+  max-width: 355px;
+  transform: rotate(-17deg);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.icons a {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  padding-right: 20px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+
+.icons a:hover {
+  transform: scale(1.5);
+}
